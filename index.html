@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>যোগাযোগ করুন</title>
+    <!-- Icons-এর জন্য FontAwesome লিংক -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #ffffff;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 350px;
+        }
+        h2 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.2s;
+            gap: 10px;
+        }
+        .whatsapp {
+            background-color: #25D366;
+        }
+        .imo {
+            background-color: #00A6E3;
+        }
+        .gmail {
+            background-color: #EA4335;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .btn i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>যোগাযোগ করুন</h2>
+        <p>সরাসরি মেসেজ বা মেইল পাঠাতে নিচের যেকোনো একটি অপশন বেছে নিন:</p>
+        
+        <!-- WhatsApp Link -->
+        <a href="https://wa.me/8801719487223" class="btn whatsapp" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp-এ মেসেজ দিন
+        </a>
+
+        <!-- imo Link -->
+        <a href="https://imo.me/+8801719487223" class="btn imo" target="_blank">
+            <i class="fa-solid fa-comments"></i> imo-তে মেসেজ দিন
+        </a>
+
+        <!-- Gmail Link -->
+        <a href="mailto:mdrukanmia1@gmail.com" class="btn gmail" target="_blank">
+            <i class="fa-solid fa-envelope"></i> ইমেইল করুন
+        </a>
+    </div>
+
+</body>
+</html>
